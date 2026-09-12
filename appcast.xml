@@ -3,14 +3,21 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.2.0</title>
-            <pubDate>Sat, 12 Sep 2026 11:05:31 -0400</pubDate>
-            <sparkle:version>431</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <title>1.2.1</title>
+            <pubDate>Sat, 12 Sep 2026 12:30:57 -0400</pubDate>
+            <sparkle:version>432</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/TheCuriousProcrastinator/Draftava-Updates/main/Draftava-1.2.0.md</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.0/Draftava-1.2.0.zip" length="5001296" type="application/octet-stream" sparkle:edSignature="VZl+Ssf7MSKdwu40vKtCmvmkeZ5lnHKJzyWG10tO3fS5aHFzjqncX0swGDIy1Ich6hvvxPrbChu0/wfQkVNiAg=="/>
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.2.1
+
+This maintenance release fixes a launch failure introduced in Draftava 1.2.0.
+
+- Fixed Draftava failing to open when Sparkle was embedded in locally signed builds.
+- Improved release validation so packaged builds are launch-tested before publishing.
+- Improved update packaging checks to catch signing and bundle metadata problems before release.
+]]></description>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.1/Draftava-1.2.1.zip" length="5001340" type="application/octet-stream" sparkle:edSignature="gg/cvaOZxmbbAP7Syi+s93Zb2D5SXuaQOrL4VF5IS9IcNUhJD+Oe38fSRUdRFf8Df9Q0qln2O/EE4xRWFN7DBg=="/>
         </item>
     </channel>
 </rss>

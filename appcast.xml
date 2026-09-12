@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss
-    version="2.0"
-    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
->
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Draftava Updates</title>
-        <link>https://github.com/TheCuriousProcrastinator/Draftava-Updates</link>
-        <description>Draftava software updates</description>
-        <language>en</language>
+        <title>Draftava</title>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Sat, 12 Sep 2026 11:05:31 -0400</pubDate>
+            <sparkle:version>431</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/TheCuriousProcrastinator/Draftava-Updates/main/Draftava-1.2.0.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.0/Draftava-1.2.0.zip" length="5001296" type="application/octet-stream" sparkle:edSignature="VZl+Ssf7MSKdwu40vKtCmvmkeZ5lnHKJzyWG10tO3fS5aHFzjqncX0swGDIy1Ich6hvvxPrbChu0/wfQkVNiAg=="/>
+        </item>
     </channel>
 </rss>

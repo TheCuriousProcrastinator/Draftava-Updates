@@ -3,23 +3,18 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.2.2</title>
-            <pubDate>Mon, 14 Sep 2026 10:34:59 -0400</pubDate>
-            <sparkle:version>433</sparkle:version>
-            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <title>1.2.3</title>
+            <pubDate>Mon, 14 Sep 2026 14:39:51 -0400</pubDate>
+            <sparkle:version>434</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.2.2
-
-This release makes workspace saving and recovery safer when files are synced or changed outside Draftava.
-
-- Preserves recoverable copies when Draftava detects stale iCloud file-version conflicts.
-- Protects externally changed draft Markdown before Draftava saves over it.
-- Blocks saves while unresolved managed-file conflicts remain.
-- Keeps a bounded history of conflict-recovery packages.
-- Fixes unnecessary workspace revisions being written during an untouched app launch.
+            <description sparkle:format="markdown"><![CDATA[- Added an Open at Login option in Settings.
+- New drafts now place the caret in the title automatically, and Return moves directly into the editor.
+- Keyboard Shortcuts can now be dismissed with Esc even when the editor has keyboard focus.
+- Fixed a save failure on fresh installations when Draftava's local Application Support folder had not yet been created.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.2/Draftava-1.2.2.zip" length="5017380" type="application/octet-stream" sparkle:edSignature="FI/qxG4I4MdT0nrmQvWHBZSOzuiU0ntGxBlASFXoGAqYvfI0K4THu9XIjSjlpaRMC3HJFYot9VItkOknKsieDg=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.3/Draftava-1.2.3.zip" length="5036988" type="application/octet-stream" sparkle:edSignature="cnGqs87bW9kDD3m5r6P73hoKi7st31o0fFgw+5lmyeTIB4m/AUZgDGxb80fPJbTexh4y58EohPkHO7J9p2LIBA=="/>
         </item>
     </channel>
 </rss>

@@ -3,21 +3,19 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.2.4</title>
-            <pubDate>Tue, 15 Sep 2026 10:38:57 -0400</pubDate>
-            <sparkle:version>435</sparkle:version>
-            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <title>1.2.5</title>
+            <pubDate>Tue, 15 Sep 2026 11:43:17 -0400</pubDate>
+            <sparkle:version>436</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.2.4
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.2.5
 
-- Fixed Unicode corruption when cutting or copying text and pasting it back into Draftava.
-- Improved editor drag-and-drop spacing so moved text no longer leaves or creates unwanted blank lines.
-- Kept the existing selection actions visible after moving text or dropping an Idea into the editor.
-- Added full-size image preview from Idea popups, with Escape returning to the normal popup.
-- Added Copy Image to the context menu for rendered images in the editor.
+- Fixed copying selections that contain both text and images.
+- Images now remain real images instead of becoming broken local asset links when pasted into rich-text apps.
+- Draftava-to-Draftava paste preserves the original Markdown and image reference correctly.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.4/Draftava-1.2.4.zip" length="4996360" type="application/octet-stream" sparkle:edSignature="tfjPoSnf9uhhFImSCeORFuxhq3BNyY6LAXe1PMzoZQSJ5Klc+EE2YK7r5p/u0k27dS1g+2vFcH8S9V1btcxrBw=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.5/Draftava-1.2.5.zip" length="5002701" type="application/octet-stream" sparkle:edSignature="WuwYKSjmKJLqyrPnd+QuNmgFfL5WBrpuCeolxeD3V2l9gQ3JFrl0z0DnAjI19sOe7Wi26g7q5F7AxlWnkDhvAg=="/>
         </item>
     </channel>
 </rss>

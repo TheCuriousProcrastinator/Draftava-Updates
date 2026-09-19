@@ -3,19 +3,20 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.2.5</title>
-            <pubDate>Tue, 15 Sep 2026 11:43:17 -0400</pubDate>
-            <sparkle:version>436</sparkle:version>
-            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <title>1.2.6</title>
+            <pubDate>Sat, 19 Sep 2026 12:26:38 -0400</pubDate>
+            <sparkle:version>437</sparkle:version>
+            <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.2.5
+            <description sparkle:format="markdown"><![CDATA[Draftava 1.2.6
 
-- Fixed copying selections that contain both text and images.
-- Images now remain real images instead of becoming broken local asset links when pasted into rich-text apps.
-- Draftava-to-Draftava paste preserves the original Markdown and image reference correctly.
+- Paste a copied web URL onto selected text to create a Markdown link.
+- Improve link editing: click a link to reveal its Markdown source and Command-click to open it in the browser.
+- Narrow the native Help menu while retaining the macOS Help search.
+- Tune the Clicky typing sound set so the R2 key sound better matches the rest of the theme.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.5/Draftava-1.2.5.zip" length="5002701" type="application/octet-stream" sparkle:edSignature="WuwYKSjmKJLqyrPnd+QuNmgFfL5WBrpuCeolxeD3V2l9gQ3JFrl0z0DnAjI19sOe7Wi26g7q5F7AxlWnkDhvAg=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.6/Draftava-1.2.6.zip" length="5007195" type="application/octet-stream" sparkle:edSignature="I+/CvBOGqfCpKjg4DuGeoXCr80GNFeA2FCYEkgh4UnoTv1PpllpnhMlhXQfOwRB8MRGw02rkMOw51Py3jJCIBA=="/>
         </item>
     </channel>
 </rss>

@@ -3,20 +3,21 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.2.6</title>
-            <pubDate>Sat, 19 Sep 2026 12:26:38 -0400</pubDate>
-            <sparkle:version>437</sparkle:version>
-            <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+            <title>1.3.0</title>
+            <pubDate>Mon, 21 Sep 2026 07:23:57 -0400</pubDate>
+            <sparkle:version>438</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Draftava 1.2.6
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.0
 
-- Paste a copied web URL onto selected text to create a Markdown link.
-- Improve link editing: click a link to reveal its Markdown source and Command-click to open it in the browser.
-- Narrow the native Help menu while retaining the macOS Help search.
-- Tune the Clicky typing sound set so the R2 key sound better matches the rest of the theme.
+- Added Draft Groups for organizing drafts in the sidebar.
+- Added collapsible Group headers with persistent Group membership.
+- Added moving drafts into, out of, and between Groups.
+- Added whole-Group drag and reorder with drafts moving together.
+- Improved sidebar drag behavior, live displacement, and drop positioning.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.2.6/Draftava-1.2.6.zip" length="5007195" type="application/octet-stream" sparkle:edSignature="I+/CvBOGqfCpKjg4DuGeoXCr80GNFeA2FCYEkgh4UnoTv1PpllpnhMlhXQfOwRB8MRGw02rkMOw51Py3jJCIBA=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.0/Draftava-1.3.0.zip" length="5160162" type="application/octet-stream" sparkle:edSignature="I7qMnV+FUCUggcr1vPQF/X9RtYeAFb7bzcnUxNGf8+nH0nH+bBiTsW1/K2ssrq/mmhlpP34abV0VY7YeTG+JDQ=="/>
         </item>
     </channel>
 </rss>

@@ -3,22 +3,19 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.2</title>
-            <pubDate>Sun, 27 Sep 2026 12:14:22 -0400</pubDate>
-            <sparkle:version>440</sparkle:version>
-            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <title>1.3.3</title>
+            <pubDate>Mon, 28 Sep 2026 12:39:15 -0400</pubDate>
+            <sparkle:version>441</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.2
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.3
 
-- Moves routine debounced persistence work off the main actor so autosaves do less work on the UI thread.
-- Adds Back and Forward draft navigation in the toolbar, following actual draft visit history.
-- Improves editor drag auto-scroll with smoother 60 Hz velocity-based scrolling near the top and bottom edges.
-- Adds edge auto-scroll while reordering cards in the right-side Idea Shelf.
-- Fixes converted Markdown paste undo so one Undo removes the whole pasted conversion.
-- Renames the right-side per-draft idea rail to Idea Shelf.
+- Fixes live iCloud workspace reloads unexpectedly switching this Mac to a different draft.
+- Prevents Draftava from freezing during launch or activation when retained History contains cloud-only iCloud files.
+- Keeps existing iCloud conflict protection intact while avoiding forced downloads during asset cleanup.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.2/Draftava-1.3.2.zip" length="5205673" type="application/octet-stream" sparkle:edSignature="ibn48j/NRJb2LarOzonoh0wLWDEznewfbdw5rqBnJcsnmFF1YOEk0sLz3nIt8s49owG0GHtGThm4IpNruAoDAg=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.3/Draftava-1.3.3.zip" length="5206376" type="application/octet-stream" sparkle:edSignature="VFa23VlF3NgOxeMhiGP8Z4iYyeyXu7BlAY9hQfAiCyF9FnpCPA+d8Vw/JpsUC8beWPpJSVKGAe/qb03HOBt7Dg=="/>
         </item>
     </channel>
 </rss>

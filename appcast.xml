@@ -3,20 +3,18 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.4</title>
-            <pubDate>Mon, 28 Sep 2026 20:35:15 -0400</pubDate>
-            <sparkle:version>442</sparkle:version>
-            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+            <title>1.3.5</title>
+            <pubDate>Tue, 29 Sep 2026 19:29:33 -0400</pubDate>
+            <sparkle:version>443</sparkle:version>
+            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.4
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.5
 
-- Redesigns Draft group headers for clearer hierarchy, stronger contrast, and a larger expand/collapse click target.
-- Improves Draft group reordering so release handoff matches Draft-row behavior and removes the extra post-drop settling motion and artificial group gap.
-- Adds Move to Top and Move to Bottom actions to the Idea Shelf context menu.
-- Fixes an intermittent Idea Shelf scrollbar-thumb artifact during SwiftUI layout updates.
+- Makes returning to Draftava with Command-Tab or the Dock feel immediate by moving storage cleanup off the app-activation path.
+- Makes the Idea Shelf "Add an idea…" composer ready for typing with a single click, including when Draftava was not already active.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.4/Draftava-1.3.4.zip" length="5215192" type="application/octet-stream" sparkle:edSignature="TvpA9zjLL5KU9XEU698n8SrypLxbaZn2ZzM9MNUVlbIwPdur+VA+OFunLxkt+85KXSGxOn5gCxH35CV5eKDfCg=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.5/Draftava-1.3.5.zip" length="5208464" type="application/octet-stream" sparkle:edSignature="5rv3XLeALIEUCZzdJDXop0iPLiEMk7qP3PY1fiAzugLQYS9J1leGuPU/wAQCZaAJR6eKN7/RfIFmoWx4Bxw+Dw=="/>
         </item>
     </channel>
 </rss>

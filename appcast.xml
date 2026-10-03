@@ -3,18 +3,19 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.5</title>
-            <pubDate>Tue, 29 Sep 2026 19:29:33 -0400</pubDate>
-            <sparkle:version>443</sparkle:version>
-            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
+            <title>1.3.6</title>
+            <pubDate>Sat, 03 Oct 2026 09:55:43 -0400</pubDate>
+            <sparkle:version>444</sparkle:version>
+            <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.5
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.6
 
-- Makes returning to Draftava with Command-Tab or the Dock feel immediate by moving storage cleanup off the app-activation path.
-- Makes the Idea Shelf "Add an idea…" composer ready for typing with a single click, including when Draftava was not already active.
+- Adds a fast project switcher at the top of the sidebar, with remembered projects from different folders kept in a stable order.
+- Makes project switching feel immediate, including instant popup dismissal and faster Open Project / New Project access.
+- Improves spacing in the Idea editor and prevents Idea Shelf text drops from creating extra blank paragraphs.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.5/Draftava-1.3.5.zip" length="5208464" type="application/octet-stream" sparkle:edSignature="5rv3XLeALIEUCZzdJDXop0iPLiEMk7qP3PY1fiAzugLQYS9J1leGuPU/wAQCZaAJR6eKN7/RfIFmoWx4Bxw+Dw=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.6/Draftava-1.3.6.zip" length="5249170" type="application/octet-stream" sparkle:edSignature="4B48QqK4izPYDSs1NK3U34PCQA/7+sAVvOZVSOCD3nq/ueJVbY/6y8Sqv3LoGa/tsIPRtowqzYGrIptbTGt3CQ=="/>
         </item>
     </channel>
 </rss>

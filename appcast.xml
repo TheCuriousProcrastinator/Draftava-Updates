@@ -3,19 +3,20 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.6</title>
-            <pubDate>Sat, 03 Oct 2026 09:55:43 -0400</pubDate>
-            <sparkle:version>444</sparkle:version>
-            <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
+            <title>1.3.7</title>
+            <pubDate>Mon, 05 Oct 2026 20:28:36 -0400</pubDate>
+            <sparkle:version>445</sparkle:version>
+            <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.6
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.7
 
-- Adds a fast project switcher at the top of the sidebar, with remembered projects from different folders kept in a stable order.
-- Makes project switching feel immediate, including instant popup dismissal and faster Open Project / New Project access.
-- Improves spacing in the Idea editor and prevents Idea Shelf text drops from creating extra blank paragraphs.
+- Makes switching between projects safer by saving only when there are real pending edits and refusing to leave a project when that save fails.
+- Improves reopening cloud-backed projects with coordinated reads and clearer handling of temporarily unavailable files.
+- Protects newer project data by refusing to open or save an older cloud workspace generation when newer retained Draftava History exists.
+- Prevents persistence state and delayed filesystem callbacks from leaking across project switches.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.6/Draftava-1.3.6.zip" length="5249170" type="application/octet-stream" sparkle:edSignature="4B48QqK4izPYDSs1NK3U34PCQA/7+sAVvOZVSOCD3nq/ueJVbY/6y8Sqv3LoGa/tsIPRtowqzYGrIptbTGt3CQ=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.7/Draftava-1.3.7.zip" length="5254302" type="application/octet-stream" sparkle:edSignature="4fswb7olH53rb+tXoh2TQCsvPuL4fNyfNoVJp8lfktOV0Cf50MoOWpSnqnjQCP/S08XO1FWClCeGZQ1bogL1Aw=="/>
         </item>
     </channel>
 </rss>

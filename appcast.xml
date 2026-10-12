@@ -3,20 +3,18 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.7</title>
-            <pubDate>Mon, 05 Oct 2026 20:28:36 -0400</pubDate>
-            <sparkle:version>445</sparkle:version>
-            <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
+            <title>1.3.8</title>
+            <pubDate>Mon, 12 Oct 2026 13:25:57 -0400</pubDate>
+            <sparkle:version>446</sparkle:version>
+            <sparkle:shortVersionString>1.3.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.7
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.8
 
-- Makes switching between projects safer by saving only when there are real pending edits and refusing to leave a project when that save fails.
-- Improves reopening cloud-backed projects with coordinated reads and clearer handling of temporarily unavailable files.
-- Protects newer project data by refusing to open or save an older cloud workspace generation when newer retained Draftava History exists.
-- Prevents persistence state and delayed filesystem callbacks from leaking across project switches.
+- Improves coordination of iCloud-backed project saves by coordinating the project folder and workspace metadata together.
+- Retains existing safeguards that preserve conflicting draft versions and protect against older cloud project data overwriting newer work.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.7/Draftava-1.3.7.zip" length="5254302" type="application/octet-stream" sparkle:edSignature="4fswb7olH53rb+tXoh2TQCsvPuL4fNyfNoVJp8lfktOV0Cf50MoOWpSnqnjQCP/S08XO1FWClCeGZQ1bogL1Aw=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.8/Draftava-1.3.8.zip" length="5255230" type="application/octet-stream" sparkle:edSignature="r0b7FFBq9pMVNrqf8bns7fqPyWKFpr2l2KjNU8mGppiWcPNmeAnlScvHCWzqrE1ZFMNHsLJks4YXHAfK/e45Aw=="/>
         </item>
     </channel>
 </rss>

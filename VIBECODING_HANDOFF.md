@@ -52,15 +52,17 @@ Always verify the current repository HEAD and live appcast before changing relea
 
 ## Current verified update-feed state
 
-At this handoff:
+Verified against the current `main/appcast.xml` and GitHub Releases on **2026-10-13**:
 
 - product: Draftava
-- version: **1.3.5**
-- build: **443**
+- version: **1.3.8**
+- build: **446**
 - minimum macOS: **14.0**
 - architecture requirement: **arm64**
-- release asset: `Draftava-1.3.5.zip`
-- release tag referenced by appcast: `v1.3.5`
+- release asset: `Draftava-1.3.8.zip`
+- release tag referenced by appcast: `v1.3.8`
+- release ZIP SHA-256: `325bf70a0e177df438c9dfd9755e39dd1a565c7e39857e6072984f6285e986ed` (GitHub release asset)
+- signed Sparkle appcast enclosure verified; ZIP asset in `Draftava-Updates` release `v1.3.8`
 
 The appcast enclosure points to the GitHub Release asset hosted in this repository.
 

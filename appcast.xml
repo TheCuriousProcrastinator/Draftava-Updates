@@ -3,18 +3,23 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.8</title>
-            <pubDate>Mon, 12 Oct 2026 13:25:57 -0400</pubDate>
-            <sparkle:version>446</sparkle:version>
-            <sparkle:shortVersionString>1.3.8</sparkle:shortVersionString>
+            <title>1.3.9</title>
+            <pubDate>Thu, 15 Oct 2026 10:21:05 -0400</pubDate>
+            <sparkle:version>447</sparkle:version>
+            <sparkle:shortVersionString>1.3.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.8
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.9
 
-- Improves coordination of iCloud-backed project saves by coordinating the project folder and workspace metadata together.
-- Retains existing safeguards that preserve conflicting draft versions and protect against older cloud project data overwriting newer work.
+- Adds **File → Recover Archived Draft as Copy…** for preserved document conflict versions.
+- Lets you review archived Markdown before recovering it as a separate draft.
+- Keeps the original document intact and creates a pre-recovery History backup.
+- Verifies the recovered Markdown after saving.
+- Includes groundwork for document-level conflict tracking and recovery.
+
+Automatic cross-Mac conflict reconciliation is not enabled in this release.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.8/Draftava-1.3.8.zip" length="5255230" type="application/octet-stream" sparkle:edSignature="r0b7FFBq9pMVNrqf8bns7fqPyWKFpr2l2KjNU8mGppiWcPNmeAnlScvHCWzqrE1ZFMNHsLJks4YXHAfK/e45Aw=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.9/Draftava-1.3.9.zip" length="5275104" type="application/octet-stream" sparkle:edSignature="TJt9B7gbUTf23bRagL+l80Ykg1rJ/ZoVVW0B+uS/kbTY+2GTfaRQcU/BhxP0hJhyNXSA+pfT033M8tGQebcQBw=="/>
         </item>
     </channel>
 </rss>

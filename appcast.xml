@@ -3,23 +3,24 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.9</title>
-            <pubDate>Thu, 15 Oct 2026 10:21:05 -0400</pubDate>
-            <sparkle:version>447</sparkle:version>
-            <sparkle:shortVersionString>1.3.9</sparkle:shortVersionString>
+            <title>1.3.10</title>
+            <pubDate>Sat, 17 Oct 2026 13:20:02 -0400</pubDate>
+            <sparkle:version>448</sparkle:version>
+            <sparkle:shortVersionString>1.3.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.9
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.10
 
-- Adds **File → Recover Archived Draft as Copy…** for preserved document conflict versions.
-- Lets you review archived Markdown before recovering it as a separate draft.
-- Keeps the original document intact and creates a pre-recovery History backup.
-- Verifies the recovered Markdown after saving.
-- Includes groundwork for document-level conflict tracking and recovery.
+- Fixes Move from the Idea Shelf into a draft, including card-content and handle dragging.
+- Preserves Copy behavior and undo/redo.
+- Corrects padding around Notes in the Idea Shelf editor.
+- Removes the previous activation-code screen and license requirement.
 
-Automatic cross-Mac conflict reconciliation is not enabled in this release.
+Lemon Squeezy licensing is planned separately.
+
+Existing project files, iCloud safeguards, and Sparkle updates remain supported.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.9/Draftava-1.3.9.zip" length="5275104" type="application/octet-stream" sparkle:edSignature="TJt9B7gbUTf23bRagL+l80Ykg1rJ/ZoVVW0B+uS/kbTY+2GTfaRQcU/BhxP0hJhyNXSA+pfT033M8tGQebcQBw=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.10/Draftava-1.3.10.zip" length="5263884" type="application/octet-stream" sparkle:edSignature="Q5J2OnCivzY08SKjvdioGyBy9jFZFT9IwTTzt+V+ts5nCfOAnU1hCwdq/YRsF80kyCm2fOnaAUUq1vpHde3sBA=="/>
         </item>
     </channel>
 </rss>

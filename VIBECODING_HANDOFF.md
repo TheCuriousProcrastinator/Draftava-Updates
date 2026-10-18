@@ -11,7 +11,7 @@
 - This rule takes precedence over older handoff wording that might suggest an additional user confirmation after validation. It does not override mandatory validation or source-of-truth checks.
 
 
-**Updated:** 2026-10-02
+**Latest state verified:** 2026-10-18 (earlier release history and policies remain documented below)
 
 ## Shared Vibe Coding workflow rules (2026-10-08)
 
@@ -50,21 +50,21 @@ It is not the Draftava application source repository.
 
 Always verify the current repository HEAD and live appcast before changing release metadata.
 
-## Current verified update-feed state
+## Current verified update-feed state — 2026-10-18
 
-Verified against the current `main/appcast.xml` and GitHub Releases on **2026-10-13**:
+The current `main/appcast.xml` and GitHub Releases were checked against the published Draftava source:
 
-- product: Draftava
-- version: **1.3.8**
-- build: **446**
-- minimum macOS: **14.0**
-- architecture requirement: **arm64**
-- release asset: `Draftava-1.3.8.zip`
-- release tag referenced by appcast: `v1.3.8`
-- release ZIP SHA-256: `325bf70a0e177df438c9dfd9755e39dd1a565c7e39857e6072984f6285e986ed` (GitHub release asset)
-- signed Sparkle appcast enclosure verified; ZIP asset in `Draftava-Updates` release `v1.3.8`
-
-The appcast enclosure points to the GitHub Release asset hosted in this repository.
+- Product: **Draftava**.
+- Current published release: **v1.3.11**, build **449** (published 2026-10-18).
+- Application release source commit: `4742268442306ea3fe060b32dfe9a1d8d5005a99`. Draftava's `main` can advance via handoff-only commits after the tag; do not assume `main` equals tagged source.
+- Latest verified `Draftava-Updates` `main` HEAD **before this documentation-only update**: `6b3bad5a73cf212bf5dcf52a9b931e4cbbf49151`; fetch the newly committed HEAD for subsequent work.
+- Minimum macOS version advertised by Sparkle: **14.0**; hardware requirement: **arm64**.
+- Release asset: `Draftava-1.3.11.zip`, **5,264,305 bytes**. Both Draftava source and updates GitHub Releases list this exact file and size.
+- Sparkle appcast enclosure URL: `https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.11/Draftava-1.3.11.zip`.
+- The feed at `https://raw.githubusercontent.com/TheCuriousProcrastinator/Draftava-Updates/main/appcast.xml` contains version **1.3.11**, build **449**, and a nonempty Sparkle EdDSA signature. The source release handoff records local packaging/signature validation and matching downloaded ZIPs. Do not invent a new checksum or notarization result.
+- The release includes UTF-8 rich-text paste and typing-sound performance fixes. Cross-Mac iCloud archived-conflict recovery testing remains outstanding; do not mistake shipping of non-destructive `Recover Archived Draft as Copy…` for full automatic restoration.
+- **The former “current 1.3.8, build 446” statement was a 2026-10-13 historical snapshot and is superseded.** Next release work must use the inspected `main` source, actual latest release, and live appcast.
+- This update changes the handoff only. The `appcast.xml`, releases, ZIP assets, tags, and update behavior are unchanged.
 
 ## Repository role
 
@@ -138,4 +138,4 @@ It does not change:
 
 ## Next task
 
-Before the next Draftava release, verify this handoff against both the Draftava source repository and the current live update repository.
+Before the next Draftava release, fetch and verify current `Draftava/main`, `Draftava-Updates/main`, the latest version/build, the actual tag and signed appcast. The 1.3.11 release is already published; do not re-publish it. Run all executable/build-affecting validation in the user's real Mac checkout before any source/release write. No GitHub Actions run is required.

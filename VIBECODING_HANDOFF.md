@@ -13,6 +13,22 @@
 
 # Draftava Updates - Development Handoff
 
+## CURRENT VERIFIED UPDATE-FEED STATE — 2026-10-20 (READ FIRST)
+
+- **Published release:** Draftava **v1.3.12, build 450**.
+- **Application release source:** `52d186dd06b6c61db7ff06c8e70d9edb634ae4a6`.
+- **Updates main before this documentation update:** `a51ab864343fa9d0e266c7cfa6585874c3a9595b`.
+- **Source main before this documentation update:** `5404a4e1e4d41b69929f37423665e1f938300ee4`.
+- **Release ZIP:** `Draftava-1.3.12.zip`, 5,268,519 bytes.
+- **Verified ZIP SHA-256:** `c96096c7e2a395667ee21e343f363e145161ab65a64ca87d28fd3326355d3090`.
+- **Sparkle appcast:** Version 1.3.12, build 450, macOS 14.0 minimum, arm64, correct download URL and EdDSA signature.
+- **Verification:** Local Release build, signing checks, ZIP validation, both downloaded GitHub assets and live appcast verified.
+- **Released changes:** Typing responsiveness, Obsidian window reuse and Idea drag/Undo cleanup.
+- **Release state:** Already published. Do not republish v1.3.12.
+- **Future work:** Use the validated local Mac release workflow; never run GitHub Actions automatically.
+- **Precedence:** This section supersedes historical 2026-10-18 state below.
+
+
 ## Publish/release command - standing authorization (2026-10-13)
 
 - When the user says "publish", "release", "make update", or equivalent, treat that statement as standing authorization to complete the full validated local release and publication workflow. Do not ask for additional publication consent or confirmation.
@@ -24,7 +40,7 @@
 - This rule takes precedence over older handoff wording that might suggest an additional user confirmation after validation. It does not override mandatory validation or source-of-truth checks.
 
 
-**Latest state verified:** 2026-10-18 (earlier release history and policies remain documented below)
+**Latest narrative state verified:** 2026-10-20 (earlier release history and policies remain documented below)
 
 ## Shared Vibe Coding workflow rules (2026-10-08)
 
@@ -63,7 +79,7 @@ It is not the Draftava application source repository.
 
 Always verify the current repository HEAD and live appcast before changing release metadata.
 
-## Current verified update-feed state — 2026-10-18
+## Historical verified update-feed state — 2026-10-18 (superseded)
 
 The current `main/appcast.xml` and GitHub Releases were checked against the published Draftava source:
 
@@ -151,7 +167,7 @@ It does not change:
 
 ## Next task
 
-Before the next Draftava release, fetch and verify current `Draftava/main`, `Draftava-Updates/main`, the latest version/build, the actual tag and signed appcast. The 1.3.11 release is already published; do not re-publish it. Run all executable/build-affecting validation in the user's real Mac checkout before any source/release write. No GitHub Actions run is required.
+Before the next Draftava release, fetch and verify current `Draftava/main`, `Draftava-Updates/main`, the latest version/build, the actual tag and signed appcast. The 1.3.12 release is already published; do not re-publish it. Run all executable/build-affecting validation in the user's real Mac checkout before any source/release write. No GitHub Actions run is required.
 
 
 ## Automatic handoff synchronization (2026-10-19)

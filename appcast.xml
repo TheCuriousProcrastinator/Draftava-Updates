@@ -3,21 +3,21 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.11</title>
-            <pubDate>Sun, 18 Oct 2026 07:10:04 -0400</pubDate>
-            <sparkle:version>449</sparkle:version>
-            <sparkle:shortVersionString>1.3.11</sparkle:shortVersionString>
+            <title>1.3.12</title>
+            <pubDate>Tue, 20 Oct 2026 10:32:33 -0400</pubDate>
+            <sparkle:version>450</sparkle:version>
+            <sparkle:shortVersionString>1.3.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.11
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.12
 
-- Fixes corrupted symbols and curly quotes when pasting UTF-8 rich text.
-- Preserves formatting when importing HTML from the clipboard.
-- Improves typing-sound smoothness during fast typing in long drafts.
+- Improves typing responsiveness in longer drafts by reducing unnecessary Markdown formatting and layout work.
+- Fixes Obsidian captures opening an additional Draftava window instead of reusing the existing one.
+- Fixes Ideas remaining faded after a drag, cancellation, or Undo.
 
 Existing projects, iCloud safeguards, and Sparkle updates remain supported.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.11/Draftava-1.3.11.zip" length="5264305" type="application/octet-stream" sparkle:edSignature="o0XAepfxmjbxy36TISBkr+xDQpASYjiGzyew/AcekTOeNwyksR2+kH9JEG4ibwxz1FTpEiJEnogm4SieVLaNAA=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.12/Draftava-1.3.12.zip" length="5268519" type="application/octet-stream" sparkle:edSignature="fZzZiEFLJpzseI/4rqeuIj1eNGol63tJYpTgs9m7AxaKqIJMScfumcHJfpFmhxMcE1J3xIu2Ld6AoN5S36w0BA=="/>
         </item>
     </channel>
 </rss>

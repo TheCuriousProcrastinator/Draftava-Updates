@@ -3,21 +3,21 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.12</title>
-            <pubDate>Tue, 20 Oct 2026 10:32:33 -0400</pubDate>
-            <sparkle:version>450</sparkle:version>
-            <sparkle:shortVersionString>1.3.12</sparkle:shortVersionString>
+            <title>1.3.13</title>
+            <pubDate>Wed, 21 Oct 2026 07:31:44 -0400</pubDate>
+            <sparkle:version>451</sparkle:version>
+            <sparkle:shortVersionString>1.3.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.12
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.13
 
-- Improves typing responsiveness in longer drafts by reducing unnecessary Markdown formatting and layout work.
-- Fixes Obsidian captures opening an additional Draftava window instead of reusing the existing one.
-- Fixes Ideas remaining faded after a drag, cancellation, or Undo.
+- Moves routine workspace-change checks to the background persistence worker to reduce main-thread work following autosaves.
+- Adds safeguards against applying outdated reconciliation results after new edits, saves, or project switching.
+- Preserves the 300 ms autosave debounce and existing conflict protection.
 
-Existing projects, iCloud safeguards, and Sparkle updates remain supported.
+Some uncommon conflict-resolution paths may still perform main-thread work. Further performance investigation remains open.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.12/Draftava-1.3.12.zip" length="5268519" type="application/octet-stream" sparkle:edSignature="fZzZiEFLJpzseI/4rqeuIj1eNGol63tJYpTgs9m7AxaKqIJMScfumcHJfpFmhxMcE1J3xIu2Ld6AoN5S36w0BA=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.13/Draftava-1.3.13.zip" length="5273834" type="application/octet-stream" sparkle:edSignature="AbFBWxbt3PH1xHAJSIS1R3FoJsAxozPKtD7qR2V1zdn7FgRGfkRZJ9iV2HSuB4QRU5pd972ffZEXHy2HfnOsBg=="/>
         </item>
     </channel>
 </rss>

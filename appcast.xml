@@ -3,21 +3,29 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.13</title>
-            <pubDate>Wed, 21 Oct 2026 07:31:44 -0400</pubDate>
-            <sparkle:version>451</sparkle:version>
-            <sparkle:shortVersionString>1.3.13</sparkle:shortVersionString>
+            <title>1.3.14</title>
+            <pubDate>Fri, 23 Oct 2026 11:42:30 -0400</pubDate>
+            <sparkle:version>452</sparkle:version>
+            <sparkle:shortVersionString>1.3.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.13
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.14
 
-- Moves routine workspace-change checks to the background persistence worker to reduce main-thread work following autosaves.
-- Adds safeguards against applying outdated reconciliation results after new edits, saves, or project switching.
-- Preserves the 300 ms autosave debounce and existing conflict protection.
+This update improves protection and recovery of drafts when iCloud
+synchronization encounters conflicting project versions.
 
-Some uncommon conflict-resolution paths may still perform main-thread work. Further performance investigation remains open.
+- Stops unsafe automatic conflict resolution based on computer identity
+  or timestamps.
+- Preserves device-local recovery copies before shared saves.
+- Shows blocked-save status and performs guarded background inspection.
+- Adds non-destructive recovery bundles and reconciliation reports.
+- Allows preserved journal drafts to be exported or recovered as copies.
+- Retains original conflict evidence for manual investigation.
+
+Cross-Mac conflict handling is still undergoing validation.
+Divergent histories are not automatically merged.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.13/Draftava-1.3.13.zip" length="5273834" type="application/octet-stream" sparkle:edSignature="AbFBWxbt3PH1xHAJSIS1R3FoJsAxozPKtD7qR2V1zdn7FgRGfkRZJ9iV2HSuB4QRU5pd972ffZEXHy2HfnOsBg=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.14/Draftava-1.3.14.zip" length="5323932" type="application/octet-stream" sparkle:edSignature="NL8ixC8ssD9Rq4PoGvquInWFgQrUDf38fzyRBHu4SWZBIt38XqLSEAmJKMwjKxIY/KqyzNxrlI+CCfl1SFR+Dw=="/>
         </item>
     </channel>
 </rss>

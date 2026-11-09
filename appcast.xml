@@ -3,20 +3,22 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.16</title>
-            <pubDate>Fri, 06 Nov 2026 20:43:16 -0500</pubDate>
-            <sparkle:version>454</sparkle:version>
-            <sparkle:shortVersionString>1.3.16</sparkle:shortVersionString>
+            <title>1.3.17</title>
+            <pubDate>Sun, 08 Nov 2026 20:32:06 -0500</pubDate>
+            <sparkle:version>455</sparkle:version>
+            <sparkle:shortVersionString>1.3.17</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.16
+            <description sparkle:format="markdown"><![CDATA[Draftava 1.3.17
 
-- Check for updates when Draftava launches, if automatic update checks are enabled.
-- Respect the existing Sparkle update-check preference.
+- Add reviewed reconciliation for two independently edited iCloud drafts.
+- Verify manifest metadata and Markdown hashes before reconciling.
+- Preserve local recovery evidence before any coordinated manifest update.
+- Keep overlapping, ambiguous, or unsafe conflicts blocked.
 
-This update does not change draft storage or recovery behavior.
+This release does not automatically merge overlapping draft edits.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.16/Draftava-1.3.16.zip" length="5390820" type="application/octet-stream" sparkle:edSignature="LCuF6wZ+GTHEcWfvAzFkAwCEPoH8Rs8BTtkysiZ8mHtpFTopMqSheKNSobCaZId3UyXKWPkQKMsvR3VPAZnOAg=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.17/Draftava-1.3.17.zip" length="5433593" type="application/octet-stream" sparkle:edSignature="KrE6a3N63J64TsXSt2O2oW0Tu7edW4Tg/eyx/OJXjhVtD3ln8NZUqs8MIv/d9ba3ShyvXrKkoasVLYYKYOX/DA=="/>
         </item>
     </channel>
 </rss>

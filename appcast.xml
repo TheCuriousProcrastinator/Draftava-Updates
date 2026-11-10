@@ -3,20 +3,23 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.19</title>
-            <pubDate>Mon, 09 Nov 2026 19:28:55 -0500</pubDate>
-            <sparkle:version>457</sparkle:version>
-            <sparkle:shortVersionString>1.3.19</sparkle:shortVersionString>
+            <title>1.3.20</title>
+            <pubDate>Tue, 10 Nov 2026 12:51:41 -0500</pubDate>
+            <sparkle:version>458</sparkle:version>
+            <sparkle:shortVersionString>1.3.20</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Draftava 1.3.19
+            <description sparkle:format="markdown"><![CDATA[Draftava 1.3.20
 
-- Align Empty Trash to the right edge of the Trash header, including when resizing the window.
-- Preserve Archive header layout and existing Trash confirmation behavior.
+- Introduces license activation with a 14-day free trial.
+- Adds license verification and deactivation.
+- Stores activation securely in macOS Keychain.
+- Supports up to 14 days of offline access after verification.
+- Matches the License window to Draftava's selected theme.
 
-No changes to iCloud conflict handling or draft persistence.
+No changes to draft persistence or iCloud conflict handling.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.19/Draftava-1.3.19.zip" length="5464634" type="application/octet-stream" sparkle:edSignature="n8Qm7r0R7QkIJ4b+CGaW2RBKu1fjfHTTPSft3eYdLx4PlShRXWI8fYlGGeo7KMXtVQ5fbJzO7bx8KHYaSqnzDQ=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.20/Draftava-1.3.20.zip" length="5526906" type="application/octet-stream" sparkle:edSignature="dA3F5ADjMQnX8Un1tovjtp10li8U09XlRaO1PqezpcxStFlx3PigDRTapcY6UogskIjMPE5VRznzpBgBUc4fBQ=="/>
         </item>
     </channel>
 </rss>

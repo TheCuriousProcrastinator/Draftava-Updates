@@ -3,22 +3,20 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.18</title>
-            <pubDate>Mon, 09 Nov 2026 18:11:41 -0500</pubDate>
-            <sparkle:version>456</sparkle:version>
-            <sparkle:shortVersionString>1.3.18</sparkle:shortVersionString>
+            <title>1.3.19</title>
+            <pubDate>Mon, 09 Nov 2026 19:28:55 -0500</pubDate>
+            <sparkle:version>457</sparkle:version>
+            <sparkle:shortVersionString>1.3.19</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Draftava 1.3.18
+            <description sparkle:format="markdown"><![CDATA[Draftava 1.3.19
 
-- Protect deleted drafts with identity, content-hash, and project-revision verification.
-- Block physical deletion when another Mac edits or reintroduces a draft.
-- Preserve recovery evidence and safely resume interrupted deletions.
-- Keep legacy filename-only deletion queues unable to remove unverified files.
+- Align Empty Trash to the right edge of the Trash header, including when resizing the window.
+- Preserve Archive header layout and existing Trash confirmation behavior.
 
-Ambiguous iCloud conflicts remain blocked rather than automatically merged.
+No changes to iCloud conflict handling or draft persistence.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.18/Draftava-1.3.18.zip" length="5464385" type="application/octet-stream" sparkle:edSignature="qayDYDd0BcJyOKR55bf0JNxG2AOf20eVNZbR3qZ4oVZXTW1YSWjfjCbB0KxscxfgiJIZBCu5G+r2737yPhbiAA=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.19/Draftava-1.3.19.zip" length="5464634" type="application/octet-stream" sparkle:edSignature="n8Qm7r0R7QkIJ4b+CGaW2RBKu1fjfHTTPSft3eYdLx4PlShRXWI8fYlGGeo7KMXtVQ5fbJzO7bx8KHYaSqnzDQ=="/>
         </item>
     </channel>
 </rss>

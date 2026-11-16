@@ -3,25 +3,22 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.22</title>
-            <pubDate>Mon, 16 Nov 2026 12:42:43 -0500</pubDate>
-            <sparkle:version>460</sparkle:version>
-            <sparkle:shortVersionString>1.3.22</sparkle:shortVersionString>
+            <title>1.3.23</title>
+            <pubDate>Mon, 16 Nov 2026 18:50:23 -0500</pubDate>
+            <sparkle:version>461</sparkle:version>
+            <sparkle:shortVersionString>1.3.23</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.22/Draftava-1.3.22.zip" length="5676795" type="application/octet-stream" sparkle:edSignature="+Umf+sEELbcl2k0Wqelj4sak0kiY2YREINTD7zMEMlAx47eX1/3k0ASm9AY2ObcRBAfwHiNnCwRTFYlEPaGwAg=="/>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.3.22
+            <description sparkle:format="markdown"><![CDATA[Draftava 1.3.23
 
-This update improves the transition to Draftava's new project format.
-
-- Automatically detects and migrates existing V1 projects when needed.
-- Preserves the original project and verifies the migrated content.
-- Opens the familiar Draftava editor after successful migration.
-- Remembers the converted project for future launches.
-- Corrects the macOS folder-access flow.
-
-macOS may request one-time permission to access the project destination.
+- Create projects in user-selected locations, including local folders, iCloud Drive, and external storage.
+- Open and switch between V2 projects using the File menu or project switcher.
+- Remember recently opened projects and restore access after restarting Draftava.
+- Restore the approved welcome screen for creating or opening projects.
+- Return to the previous project when creation or opening is canceled.
+- Preserve existing V2 project data and V1 migration safeguards.
 ]]></description>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.23/Draftava-1.3.23.zip" length="5713702" type="application/octet-stream" sparkle:edSignature="uYJhhcSCRomQ+l7z7c2z6FQocFd4H5Wt6+LeBju+Ke2nuyGCuUR8kzgObD7rWBp24jGVeP26fIOSyA46gokJDA=="/>
         </item>
     </channel>
 </rss>

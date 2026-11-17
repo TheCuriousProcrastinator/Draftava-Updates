@@ -3,24 +3,27 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.3.24</title>
-            <pubDate>Mon, 16 Nov 2026 19:57:43 -0500</pubDate>
-            <sparkle:version>462</sparkle:version>
-            <sparkle:shortVersionString>1.3.24</sparkle:shortVersionString>
+            <title>1.4.0</title>
+            <pubDate>Mon, 16 Nov 2026 20:24:30 -0500</pubDate>
+            <sparkle:version>463</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Draftava 1.3.24
+            <description sparkle:format="markdown"><![CDATA[## Draftava 1.4.0
 
-- Fixed conversion of existing projects when saving the converted copy directly in iCloud Drive or another selected parent folder.
-- Converted projects now receive readable folder names, such as `TCP Newsletter V2`.
-- Added numbered suffixes when a converted project folder already exists.
-- Preserved the original project name inside Draftava.
-- Improved folder selection instructions during conversion.
-- Fixed opening and restoring converted projects with readable folder names.
+A smoother project workflow, with V2 project storage and switching.
 
-Conversion creates a separate V2 project and preserves the original V1 project.
+- Open or create V2 projects in user-selected locations, including iCloud Drive.
+- Convert an existing V1 project into a separate V2 copy while preserving the original.
+- Keep readable project folder names and handle duplicate names automatically.
+- Remove inactive projects from the recent-project list without deleting their files.
+- Keep removed projects off the list after restarting Draftava.
+- Restore typing sounds when editing in V2 projects.
+- Preserve existing V1 project compatibility and recovery safeguards.
+
+Your original V1 project is not deleted during conversion.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.3.24/Draftava-1.3.24.zip" length="5715373" type="application/octet-stream" sparkle:edSignature="2Sua0n1oZCNXgLNhzHi187DZrljO3JCAvZ78KaPvYE055qfku8BWksFMuUrfY1WRglPhnEKH7IyRhfT46zb1CQ=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.0/Draftava-1.4.0.zip" length="5715573" type="application/octet-stream" sparkle:edSignature="brh88Z4b28Pp3X1VXDyN73t7dDtA91iJVstdLKRtS+cDXTQZJarkNDJ/+Z0CH8mV2WwjJ3W7ntV759PSycNGAQ=="/>
         </item>
     </channel>
 </rss>

@@ -3,27 +3,22 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.4.0</title>
-            <pubDate>Mon, 16 Nov 2026 20:24:30 -0500</pubDate>
-            <sparkle:version>463</sparkle:version>
-            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <title>1.4.1</title>
+            <pubDate>Tue, 17 Nov 2026 09:31:55 -0500</pubDate>
+            <sparkle:version>464</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Draftava 1.4.0
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.4.1
 
-A smoother project workflow, with V2 project storage and switching.
-
-- Open or create V2 projects in user-selected locations, including iCloud Drive.
-- Convert an existing V1 project into a separate V2 copy while preserving the original.
-- Keep readable project folder names and handle duplicate names automatically.
-- Remove inactive projects from the recent-project list without deleting their files.
-- Keep removed projects off the list after restarting Draftava.
-- Restore typing sounds when editing in V2 projects.
-- Preserve existing V1 project compatibility and recovery safeguards.
-
-Your original V1 project is not deleted during conversion.
+- Replaced Lemon Squeezy licensing with Dodo Payments.
+- Removed the free trial.
+- Redesigned Settings with General, Editor, Appearance, and License tabs.
+- Improved layout consistency throughout Settings.
+- Removed redundant project-folder controls.
+- Limited long sidebar draft titles to three displayed lines.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.0/Draftava-1.4.0.zip" length="5715573" type="application/octet-stream" sparkle:edSignature="brh88Z4b28Pp3X1VXDyN73t7dDtA91iJVstdLKRtS+cDXTQZJarkNDJ/+Z0CH8mV2WwjJ3W7ntV759PSycNGAQ=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.1/Draftava-1.4.1.zip" length="5755713" type="application/octet-stream" sparkle:edSignature="6RPM6QEQAjMw09ab4dhTLY6u6N5vpI4uIXO3mkDKcvwICMZW/T5PM8yfyrUti1eZXWmvKeQsULe9va7doX09Ag=="/>
         </item>
     </channel>
 </rss>

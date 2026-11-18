@@ -3,21 +3,19 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.4.5</title>
-            <pubDate>Wed, 18 Nov 2026 07:30:12 -0500</pubDate>
-            <sparkle:version>468</sparkle:version>
-            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
+            <title>1.4.6</title>
+            <pubDate>Wed, 18 Nov 2026 08:12:08 -0500</pubDate>
+            <sparkle:version>469</sparkle:version>
+            <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.4.5
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.4.6
 
-- Undo and Redo now follow the editing history within each draft, including text and idea changes.
-- Fixed an incorrect "Save blocked" warning that could appear after Undo.
-- Press Tab when editing an idea to move into Notes.
-- Press Command-Enter to save idea edits and return to the draft editor.
-- Improved undo safety for temporary idea editors.
+- Draftava now remembers the last opened draft when you quit and relaunch.
+- Each project remembers its own last selected draft.
+- If that draft is no longer available, Draftava opens another available draft.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.5/Draftava-1.4.5.zip" length="5816491" type="application/octet-stream" sparkle:edSignature="MMELI+SyRTev1JAshpzM6WieG4P3LwUWSEYOnQ9j3zheKAkBGWFbxGc44FJBgR29pDUqFC+N3olbvo5YO1bJAA=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.6/Draftava-1.4.6.zip" length="5819978" type="application/octet-stream" sparkle:edSignature="bTb+7NWYKZ/MEnSaSLyYr0ump/NoKQa4gxiXCkpkX4nCUFc67WSrtEixcim/mRLnSoavtHuFnX558Jh9XhDzCg=="/>
         </item>
     </channel>
 </rss>

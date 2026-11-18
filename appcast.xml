@@ -3,19 +3,21 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.4.4</title>
-            <pubDate>Wed, 18 Nov 2026 05:44:41 -0500</pubDate>
-            <sparkle:version>467</sparkle:version>
-            <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
+            <title>1.4.5</title>
+            <pubDate>Wed, 18 Nov 2026 07:30:12 -0500</pubDate>
+            <sparkle:version>468</sparkle:version>
+            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.4.4
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.4.5
 
-- Fixed Back and Forward navigation between drafts in V2 projects.
-- Navigation history now resets when switching projects.
-- Preserved existing draft editing and project behavior.
+- Undo and Redo now follow the editing history within each draft, including text and idea changes.
+- Fixed an incorrect "Save blocked" warning that could appear after Undo.
+- Press Tab when editing an idea to move into Notes.
+- Press Command-Enter to save idea edits and return to the draft editor.
+- Improved undo safety for temporary idea editors.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.4/Draftava-1.4.4.zip" length="5776436" type="application/octet-stream" sparkle:edSignature="Ye4m0udV2tc6tyje6c4AeXVYJVgxMZXAGQOXOlNT9VtNPS00PVjeEWSvC8cMi/lHoIPoVkZvgz7etSrMbJWLBw=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.5/Draftava-1.4.5.zip" length="5816491" type="application/octet-stream" sparkle:edSignature="MMELI+SyRTev1JAshpzM6WieG4P3LwUWSEYOnQ9j3zheKAkBGWFbxGc44FJBgR29pDUqFC+N3olbvo5YO1bJAA=="/>
         </item>
     </channel>
 </rss>

@@ -3,18 +3,19 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.4.3</title>
-            <pubDate>Tue, 17 Nov 2026 20:29:42 -0500</pubDate>
-            <sparkle:version>466</sparkle:version>
-            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+            <title>1.4.4</title>
+            <pubDate>Wed, 18 Nov 2026 05:44:41 -0500</pubDate>
+            <sparkle:version>467</sparkle:version>
+            <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.4.3
+            <description sparkle:format="markdown"><![CDATA[# Draftava 1.4.4
 
-- Fixed rich-text paste adding unwanted backslashes before underscores in identifiers.
-- Preserved Markdown conversion for bold, italic, and list formatting.
+- Fixed Back and Forward navigation between drafts in V2 projects.
+- Navigation history now resets when switching projects.
+- Preserved existing draft editing and project behavior.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.3/Draftava-1.4.3.zip" length="5775599" type="application/octet-stream" sparkle:edSignature="phI2D98bPeSV4cc9muh9GN7fdYDNwlwuoR7Hvy4iGO/vTJzerq9TD9FmA9qeSUYWKaTd9ri7bhloDqq8rZdCBA=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.4/Draftava-1.4.4.zip" length="5776436" type="application/octet-stream" sparkle:edSignature="Ye4m0udV2tc6tyje6c4AeXVYJVgxMZXAGQOXOlNT9VtNPS00PVjeEWSvC8cMi/lHoIPoVkZvgz7etSrMbJWLBw=="/>
         </item>
     </channel>
 </rss>

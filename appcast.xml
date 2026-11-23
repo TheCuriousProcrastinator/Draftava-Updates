@@ -3,21 +3,18 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.4.9</title>
-            <pubDate>Mon, 23 Nov 2026 11:31:52 -0500</pubDate>
-            <sparkle:version>472</sparkle:version>
-            <sparkle:shortVersionString>1.4.9</sparkle:shortVersionString>
+            <title>1.4.10</title>
+            <pubDate>Mon, 23 Nov 2026 13:43:12 -0500</pubDate>
+            <sparkle:version>473</sparkle:version>
+            <sparkle:shortVersionString>1.4.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Draftava 1.4.9
+            <description sparkle:format="markdown"><![CDATA[Draftava 1.4.10
 
-- Added source links for Ideas imported from Obsidian.
-- Added an editable Source URL field in the Idea popup.
-- Preserved the original Idea content when importing.
-- Fixed popup resizing while editing longer Ideas.
-- Aligned theme toolbar colors and improved small-text contrast in Mint Candy and Polar Ink.
+- Added a direct link to Draftava Companion in Settings > General > Integrations.
+- Opens the plugin's Obsidian Community page.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.9/Draftava-1.4.9.zip" length="5828612" type="application/octet-stream" sparkle:edSignature="MoucgDTDIxIvW7NJjIrTXj/bb4TiwFjJbAer9A3ZhgJCnkzINTAplUu3lxHTEUoBxon6SQoK5VEiALyaQpghBQ=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.10/Draftava-1.4.10.zip" length="5834323" type="application/octet-stream" sparkle:edSignature="1jJxy8puDy938vr37VerXwOPoqeXwuWuslNg7wZOGYHk4NSZ660EdlpBsMIcK2qI4LGdN+C0DPB3J8DLNSxHDg=="/>
         </item>
     </channel>
 </rss>

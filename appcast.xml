@@ -3,21 +3,17 @@
     <channel>
         <title>Draftava</title>
         <item>
-            <title>1.4.11</title>
-            <pubDate>Tue, 24 Nov 2026 06:14:10 -0500</pubDate>
-            <sparkle:version>474</sparkle:version>
-            <sparkle:shortVersionString>1.4.11</sparkle:shortVersionString>
+            <title>1.4.12</title>
+            <pubDate>Tue, 24 Nov 2026 07:07:12 -0500</pubDate>
+            <sparkle:version>475</sparkle:version>
+            <sparkle:shortVersionString>1.4.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Draftava 1.4.11
-
-- Independently show or hide Drafts and the Idea Shelf.
-- Enjoy a distraction-free writing layout with both side panes hidden.
-- Smooth coordinated pane animations.
-- Pane visibility is remembered between launches.
-- New native toolbar controls and keyboard shortcuts.
+            <description sparkle:format="markdown"><![CDATA[- Consistent writing backgrounds across the main editor and Compare mode.
+- More writing space when zooming in.
+- Improved bold formatting for selections containing both bold and regular text.
 ]]></description>
-            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.11/Draftava-1.4.11.zip" length="5852480" type="application/octet-stream" sparkle:edSignature="SqhZwJkG3Dm1U/ZUgF/b/UxMRCBd/FHFn8dSIBWaF8W7m7A040Z/5Z5VJY+FrDfP25wZLaIQ69w8ReDB+t87Dw=="/>
+            <enclosure url="https://github.com/TheCuriousProcrastinator/Draftava-Updates/releases/download/v1.4.12/Draftava-1.4.12.zip" length="5855682" type="application/octet-stream" sparkle:edSignature="Cc7wNybv53lidjC6A7YXudMRFe4CN5on9szje0MEYR/fl6nHxw8fToDUgUiv2HueiWyIX9++vFlDIABsiWRDDw=="/>
         </item>
     </channel>
 </rss>
